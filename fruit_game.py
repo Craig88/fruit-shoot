@@ -36,6 +36,6 @@ def draw():
         screen.draw.text("Final Score : "+str(score), topleft=(10, 10), fontsize=60)
 
 
-clock.schedule(end_the_game, 7.0)
+clock.schedule(end_the_game, 10.0)
 update_apple()
 
