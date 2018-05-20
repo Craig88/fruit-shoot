@@ -1,3 +1,4 @@
+import pgzrun
 from random import randint
 
 WIDTH = 500
@@ -43,3 +44,5 @@ def draw():
 clock.schedule(end_the_game, 10.0)
 clock.schedule_interval(update_apple, 1.0)
 update_apple()
+
+pgzrun.go()
